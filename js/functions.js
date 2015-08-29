@@ -14,7 +14,7 @@ function paste(src) {
 
   $( ".loading" ).show();
 
-  $.post("http://p.mk/process.php", { bytes: src },
+  $.post("process.php", { bytes: src },
     function(result){
         $(".border").html(
           '<img src="'+result+'"/>'
