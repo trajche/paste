@@ -1,0 +1,45 @@
+body {
+	width:80%;
+	margin:0 auto;
+}
+body img {
+	max-width:100%;
+	margin:0 auto;
+}
+input.output {
+	width: 60%;
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	margin-left: -30%;
+	padding: 15px;
+	font-size: 19px;
+	color: #1d1d1d;
+	border-style:dashed;
+}
+.mac {
+	background-image:url(../img/mac.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:contain;
+	display:block;
+	width:90%;
+	height:400px;
+	margin:0 auto;
+}
+.loading {
+	background:url(../img/loading.gif) no-repeat;
+	height:32px;
+	width:32px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-left:-16px;
+	margin-top:-16px;
+}
+.border {
+	border:5px dashed #1f8dd6;
+	padding:20px;
+	color:#1d1d1d;
+	margin-top: 40px;
+}
